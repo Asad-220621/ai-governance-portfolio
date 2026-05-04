@@ -1,0 +1,11 @@
+Risk ID,Risk Type,Risk Description,Likelihood (1-5),Impact (1-5),Mitigation,Owner,Risk Score,Risk Level
+R1,Data Quality,"Sensor data may be incomplete, outdated, noisy, or inconsistent.",4,5,"Perform data validation, missing value checks, and sensor calibration review.",Data Engineering Lead,20,Critical
+R2,Model Accuracy,The model may incorrectly predict equipment failure or miss a critical event.,4,5,"Use model performance monitoring, retraining, and human approval for high-risk alerts.",ML Engineer,20,Critical
+R6,Explainability,Teams may not understand why the AI predicted a failure.,4,4,Use explainable AI techniques and generate reason codes for predictions.,AI Governance Lead,16,High
+R8,Monitoring Failure,The AI model may degrade over time without detection.,4,4,"Set up drift monitoring, alerting, and periodic model review.",MLOps Engineer,16,High
+R10,Governance Ownership,"No clear accountability for AI decisions, incidents, or approvals.",4,4,"Define RACI matrix, approval workflow, and AI governance board ownership.",AI Governance Architect,16,High
+R3,Operational Risk,AI recommendations may trigger unnecessary maintenance or delay urgent maintenance.,3,5,Keep human-in-the-loop approval for operational actions.,Operations Manager,15,High
+R9,Business Continuity,AI failure may impact datacenter uptime or maintenance planning.,3,5,Maintain fallback procedures and manual override processes.,Business Continuity Manager,15,High
+R4,Cybersecurity,Attackers may manipulate sensor inputs or model outputs.,3,5,"Apply access controls, anomaly detection, logging, and security monitoring.",Security Lead,15,High
+R7,Vendor Risk,"Third-party AI tools may create dependency, cost, or security concerns.",3,4,"Perform vendor due diligence, SLA review, and exit strategy planning.",Vendor Manager,12,High
+R5,Compliance,Operational or personal data may be used without proper governance.,2,5,"Classify data, anonymize sensitive data, and perform compliance review.",Compliance Officer,10,Medium

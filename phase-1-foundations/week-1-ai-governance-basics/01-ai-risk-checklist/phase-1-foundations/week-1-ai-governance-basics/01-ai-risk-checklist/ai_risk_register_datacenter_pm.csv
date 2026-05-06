@@ -9,3 +9,5 @@ R9,Business Continuity,AI failure may impact datacenter uptime or maintenance pl
 R4,Cybersecurity,Attackers may manipulate sensor inputs or model outputs.,3,5,"Apply access controls, anomaly detection, logging, and security monitoring.",Security Lead,15,High
 R7,Vendor Risk,"Third-party AI tools may create dependency, cost, or security concerns.",3,4,"Perform vendor due diligence, SLA review, and exit strategy planning.",Vendor Manager,12,High
 R5,Compliance,Operational or personal data may be used without proper governance.,2,5,"Classify data, anonymize sensitive data, and perform compliance review.",Compliance Officer,10,Medium
+Risk: "Concept Drift / Model Staleness"
+Mitigation: "Automated retraining pipeline + Drift Detection"
